@@ -40,6 +40,7 @@ strong {
 
 .cabesalho {
   background-color: var(--cor-primaria);
+  padding: 0.5rem;
 }
 
 .cabesalho_link {
@@ -83,6 +84,7 @@ img {
 
 .rodape_texto {
   margin: 0% 0% 0% 50vh;
+  padding: 0.5rem;
 }
 
 
