@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+:root {
+  --cor-primaria: #B17457;
+  --cor-fundo: #f7eeda;
+  --cor-texto:  #4A4947;
+  --cor-hover: #D8D2C2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-size: 35px;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    gap: 15%;
+    content: 100vh;
+
+}
+
+main {
+  margin: 5%;
+}
+
+div {
+  margin: 5%;
+}
+
+strong {
+  color: var(--cor-primaria);
+}
+
+.cabesalho {
+  background-color: var(--cor-primaria);
+}
+
+.cabesalho_link {
+  text-decoration: none;
+  color: var(--cor-texto);
+  margin: 0% 0% 0% 5%;
+}
+
+.cabesalho_link:hover {
+  color: var(--cor-hover);
+}
+
+.apresentacao {
+  display: flex;
+
+}
+
+.apresentacao__botao{
+  color: var(--cor-texto);
+  border: none;
+  background-color: var(--cor-primaria);
+  border-radius: 15px;
+  padding: 15px;
+  
+}
+
+.apresentacao__botao:hover {
+  border: solid;
+  border-color: var(--cor-hover);
+}
+
+img {
+  width: 70vh;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.rodape {
+  background-color: var(--cor-primaria);
+}
+
+.rodape_texto {
+  margin: 0% 0% 0% 50vh;
+}
+
+
